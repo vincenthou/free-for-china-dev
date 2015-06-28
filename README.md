@@ -5,7 +5,7 @@ Table of Contents
 =================
 
    * [代码托管平台](#source-code-repos)
-   * [团队协作工具](#tools-for-teams--collaboration)
+   * [团队协作工具](#team-collaboration)
    * [代码质量](#code-quality)
    * [统计平台](#analytics)
    * [邮件](#email)
@@ -13,15 +13,14 @@ Table of Contents
    * [即时通信](#im)
    * [评论](#comment)
    * [监控](#monitor)
-   * [监控](#testing)
+   * [测试](#testing)
    * [内容分发网络](#cdn)
    * [PaaS](#paas)
    * [BaaS](#baas)
    * [Web Hosting](#web-hosting)
    * [IaaS](#iaas)
    * [手机推送服务](#pushing)
-   * [地图服务](#map)
-   * [支付集成](#payment--billing-integration)
+   * [支付集成](#payment-billing-integration)
 
 ## Source Code Repos
 
@@ -31,7 +30,7 @@ Table of Contents
   * https://code.jd.com/ - 满足用户在京东云平台的代码开发托管需求，对每个项目均提供免费的1G存储空间，并设置了“代码一键迁移”功能
   * https://gitcafe.com/ - 每个账户免费赠送 512 MB 托管空间，在超出免费使用空间后后，超出部分每 512 MB 每天需支付 4 GitCoin，私有项目另算，还有个企业版
 
-## Tools for teams & Collaboration
+## Team Collaboration
 
   * https://team.oschina.net/ - 结合开源中国git的团队协作工具，团队创建没发现限制，但是上限人数是20
   * https://www.teambition.com/ - 免费版有20个项目额度，每个项目不限制人数
@@ -69,8 +68,10 @@ Table of Contents
 
 ## Monitor
 
+  * http://www.mmtrix.com/ 除了一站式的监控服务，还提供云评测和云加速服务，统计信息相对更加细化，定价大部分是基于服务的用量收费，
   * http://www.jiankongbao.com/ 支持API监控，5个网站监控项目，4个主机监控项目，4 个指定监测点任选3个，监控频率最高15分钟，验证手机送10条短信
-  * http://www.tingyun.com/ 多款监控产品包括APP和Server还提供CDN服务，针对免费用户提供限制性功能
+  * http://www.tingyun.com/ 多款监控产品包括APP和Server，还提供CDN服务，针对免费用户提供限制性功能
+  * http://oneapm.com/ 提供一站式监控服务，基于Agent数量付费，免费的只有一个Agent，免费使用专业版 15 天，付费服务相对较贵
 
 ## Testing
 
@@ -99,3 +100,11 @@ Table of Contents
 
   * http://www.getui.com/ 提供云推送功能
   * https://www.jpush.cn/ 基础推送服务，基本数据统计和报表，消息数和用户数无限制，有限制的API请求次数，不支持富媒体推送
+
+## Payment Billing Integration
+
+  * https://pingxx.com/ 应该是已知集成支付平台最多的，每个月前 10 万笔交易是免费的，超出部分你需要支付 0.01 元/笔的服务费（不包含支付渠道认证费用和渠道交易手续费）
+  * https://payment.ipaynow.cn 银行背景，暂时未看到有付费的限制，用自己的审核体系，代替了银联等机构的审核
+
+
+**Notice:** 最近百度上线[API Store](http://apistore.baidu.com/)服务，整合了各种方便开发者的免费和付费服务，如果发展良好的话，也许就不需要这份整理的列表啦
